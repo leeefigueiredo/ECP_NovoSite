@@ -201,13 +201,21 @@ color: white;
   }
 
   .container-inicial01 {
-    background-color: yellow;
+    
     width: 100%;
 
   }
 
+  .container-inicial01 h1{
+    font-size: 200%;
+  }
+
+ .container-inicial01 p{
+    font-size: 75%;
+  }
+
   .container-inicial02 {
-    background-color: red;
+    
     width: 100%;
 
   }
