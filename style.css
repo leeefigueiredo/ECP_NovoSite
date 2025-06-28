@@ -133,6 +133,7 @@ nav a:hover {
   color: white;
   font-weight: bold;
   margin: 0;
+  
 }
 
 .container-inicial01 p {
@@ -191,7 +192,7 @@ nav a:hover {
 
   font-weight: bold;
   margin: 0;
-
+  text-align: start;
   line-height: 1;
 }
 
@@ -207,6 +208,10 @@ nav a:hover {
 
 /* Mobile */
 @media (max-width: 768px) {
+
+html{
+}
+
   nav {
     font-family: 'Poppins', sans-serif;
     display: none;
@@ -248,19 +253,20 @@ nav a:hover {
   .container-inicial {
     display: flex;
     flex-direction: column;
-
-    width: 100vw;
-    height: 100vh;
-
+    height: auto;
+    
+    
   }
 
-  .container-inicial01 {
-
+  .container-inicial01{
     width: 100%;
-
+    padding: 0px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+ 
   }
 
-  .container-inicial01 h1 {
+  .container-inicial01 h1 .container-medio h1 {
     font-size: 200%;
   }
 
@@ -270,8 +276,33 @@ nav a:hover {
 
   .container-inicial02 {
     width: 100%;
+    font-size: small;
 
 
   }
+
+  .container-medio{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+
+  .container-medio01{
+    padding-top: 20px;
+    height: 250px;
+    width: 100%;
+  }
+
+  .container-medio02{
+    text-align: start;
+    justify-items: center;
+  }
+
+  
+
+
+
+
 
 }
