@@ -4,8 +4,12 @@ body {
   padding: 0;
   font-family: 'Poppins', sans-serif;
   background-color: white;
-  height: 200vh;
 
+
+}
+html{
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -180,7 +184,7 @@ nav a:hover {
   align-items: start;
   justify-content: center;
   text-align: justify;
-
+  padding: 50px;
   width: 55%;
   
 }
@@ -198,6 +202,7 @@ nav a:hover {
 
 
 .medio_a{
+  
   text-decoration: none;
   padding: 10px;
   background-color: red;
@@ -206,7 +211,61 @@ nav a:hover {
   
 }
 
+
+.section-final{
+  background-color: #212529;
+  width: 100%;
+  height: 250px;
+  padding-top: 50px;
+  
+}
+
+.final-card{
+  display: flex;
+  flex-direction: row ;
+  width: 100%;
+  height: auto;
+
+}
+
+.section-final a{
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s ease;  
+}
+
+.section-final a:hover {
+  color: #888;
+} 
+
+
+.card-und{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  
+  width: 16.5%;
+  
+}
+
+.final-h1{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  width: 100%;
+  padding-bottom: 50px;
+  height: 80px;
+}
+
+
 /* Mobile */
+
 @media (max-width: 768px) {
 
 html{
@@ -285,6 +344,8 @@ html{
     display: flex;
     flex-direction: column;
     height: auto;
+    text-align: center;
+    justify-content: center;
   }
 
 
@@ -292,18 +353,73 @@ html{
     padding-top: 20px;
     height: 250px;
     width: 100%;
+    align-items: center;
+    justify-content: center;
   }
 
   .container-medio02{
-    text-align: start;
+    display: flex;
+    text-align: center;
     justify-items: center;
-    margin: 10px;
+    padding: 0px;
+    text-align: center;
   }
 
+  .container-medio02{
+    text-align: center;
+    justify-items: center;
+    padding: 0px;
+    padding-top: 50px;
+
+     width: 100%;
+    
+  }
+
+  .container-medio02 h1{
+    text-align: center;
+  }
+
+  .container-medio02 div{
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-medio02 p {
+    margin: 15px;
+  }
   
 
 
+  .mediodiv{
+    
+     width: 100%;
+  }
 
+.card-und{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding-top: 30px;
+  width: 100%;
+  height: auto;
+  
+}
+
+.section-final{
+  height: auto;
+}
+
+.final-card{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+
+}
 
 
 }
