@@ -309,6 +309,16 @@ footer a:hover {
   color: #888;
 } 
 
+.div_especialistas{
+  width: 100%;
+  text-align: center;
+}
+
+.especialistas_foto{
+  border-radius: 30px;
+  border: 5px solid #ddd;
+}
+
 /* Mobile */
 
 @media (max-width: 768px) {
@@ -387,10 +397,11 @@ html{
 
   .container-medio{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     height: auto;
     text-align: center;
     justify-content: center;
+    padding-bottom: 20px;
   }
 
 
@@ -443,8 +454,8 @@ html{
 }
 
 .container-medio01 img{
-  padding-top: 40px;
-  padding-bottom: 30px;
+  /* padding-top: 40px;
+  padding-bottom: 30px; */
   width: 300px;
   height: auto;
 }
