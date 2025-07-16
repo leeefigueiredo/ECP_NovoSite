@@ -337,6 +337,11 @@ footer a:hover {
   flex-direction: row;
 }
 
+.faq{
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
 
 
 /* Mobile */
